@@ -20,9 +20,11 @@ const PortfolioPage = () => {
   }, []);
 
   return (
-    <div className="container-fluid mt-5">
+    <div id="portfolio" className="container-fluid mt-5">
       <h1 className="text-center">Portfolio</h1>
+      <br />
       <h2 className="text-center">Deployed Projects</h2>
+      <br></br>
       <div className="row justify-content-center ">
         <Card
           title="SwatchSaver"
@@ -34,8 +36,28 @@ const PortfolioPage = () => {
           description="Initial portfolio created using HTML, CSS, and JavaScript"
           link="https://ellimckinley.github.io/portfolio/"
         />
+                <Card
+          title="Project 3"
+          description="Initial portfolio created using HTML, CSS, and JavaScript"
+          link="https://ellimckinley.github.io/portfolio/"
+        />
+                <Card
+          title="Project 4"
+          description="Initial portfolio created using HTML, CSS, and JavaScript"
+          link="https://ellimckinley.github.io/portfolio/"
+        />
+                <Card
+          title="Project 5"
+          description="Initial portfolio created using HTML, CSS, and JavaScript"
+          link="https://ellimckinley.github.io/portfolio/"
+        />
+                <Card
+          title="Project 6"
+          description="Initial portfolio created using HTML, CSS, and JavaScript"
+          link="https://ellimckinley.github.io/portfolio/"
+        />
       </div>
-      <h2 className="text-center">My GitHub Projects</h2>
+      {/* <h2 className="text-center">My GitHub Projects</h2>
       <div className="row justify-content-center ">
         <ul className="list-group w-50 ">
           {repos.map(repo => (
@@ -47,7 +69,7 @@ const PortfolioPage = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

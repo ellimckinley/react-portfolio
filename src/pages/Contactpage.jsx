@@ -29,16 +29,6 @@ const ContactPage = () => {
         });
     };
 
-//Steps to Configure EmailJS:
-// Sign up for an EmailJS account at EmailJS.
-// Create an email service and note down the service ID.
-// Create an email template and note down the template ID.
-// Get your user ID from the EmailJS dashboard.
-// Replace 'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', and 'YOUR_USER_ID' with the actual values from your EmailJS account.
-
-// This code will send an email using EmailJS when the form is submitted successfully. If there are any validation errors, 
-// they will be displayed to the user. If the email is sent successfully, a success message will be displayed. If there is 
-// an error sending the email, an error message will be displayed.
     const handleSubmit = (e) => {
         e.preventDefault();
         const { firstName, lastName, email, message } = formData;
@@ -75,7 +65,7 @@ const ContactPage = () => {
     };
 
     return (
-        <Container maxWidth="sm" className="mt-5">
+        <Container className="mt-5" id="contact">
             <Typography variant="h4" component="h1" gutterBottom>
                 Contact Me
             </Typography>

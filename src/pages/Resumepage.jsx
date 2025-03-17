@@ -6,7 +6,7 @@ import '../styles.css'; // Adjust the path as necessary
 
 const ResumePage = () => {
     return (
-        <div className="container-fluid mt-5 text-start">
+        <div id="resume" className="container-fluid mt-5 text-start">
             <h1 className="text-center">Resume</h1>
             <div className="text-center">
                 <a href="/Elli-McKinley-Resume-MASTER.pdf" download className="btn btn-accent-custom">

@@ -13,14 +13,16 @@ import ResumePage from './pages/Resumepage';
 function App() {
   return (
     <Router>
-      <div className="App bg-primary-custom text-main-custom">
+      <div className="App bg-primary-custom text-main-custom d-flex flex-column min-vh-100">
         <Header />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/resume" element={<ResumePage />} />
-        </Routes>
+        <div className="content flex-grow-1">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/resume" element={<ResumePage />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>

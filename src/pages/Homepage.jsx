@@ -4,7 +4,7 @@ import profilePhoto from '../assets/images/headshot.jpeg'; // Adjust the path as
 
 const HomePage = () => {
   return (
-    <div className="container mt-5 bg-primary-custom">
+    <div id="home" className="container mt-5 bg-primary-custom">
       <h1 className="text-start">Hi, I'm Elli!</h1>
       <section className="row align-items-center">
         <div className="col-md-4 text-center">
