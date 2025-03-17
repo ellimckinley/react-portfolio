@@ -1,0 +1,72 @@
+/* Primary Background */
+.bg-primary-custom {
+    background-color: #231f20 !important;
+}
+
+/* Secondary Background / Accents */
+.bg-secondary-custom {
+    background-color: #acbfa4 !important;
+}
+
+/* Main Text / Light Background */
+.text-main-custom {
+    color: #e2e8ce !important;
+}
+.bg-light-custom {
+    background-color: #e2e8ce !important;
+}
+
+.text-title-custom {
+    color: #acbfa4 !important;
+}
+
+/* Pure White Background */
+.bg-white-custom {
+    background-color: #ffffff !important;
+}
+
+/* Accent / Button Color */
+.btn-accent-custom {
+    background-color: #ff7f11 !important;
+    border-color: #ff7f11 !important;
+}
+.btn-accent-custom:hover {
+    background-color: #ff1b1c !important;
+    border-color: #ff1b1c !important;
+}
+
+/* Attention Grabber */
+.text-attention-custom {
+    color: #ff1b1c !important;
+}
+.btn-attention-custom {
+    background-color: #ff1b1c !important;
+    border-color: #ff1b1c !important;
+}
+.btn-attention-custom:hover {
+    background-color: #ff7f11 !important;
+    border-color: #ff7f11 !important;
+}
+
+/* Navigation Link Custom */
+.nav-link-custom {
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-link-custom:hover {
+    background-color: #acbfa4 !important;
+    color: #231f20 !important;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #231f20;
+    color: #e2e8ce;
+}
+footer a {
+    color: #e2e8ce;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ff7f11;
+}
