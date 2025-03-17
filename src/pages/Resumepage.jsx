@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Accordion from 'react-bootstrap/Accordion';
-import '../styles.css'; // Adjust the path as necessary
+import '../styles.css'; 
 
 const ResumePage = () => {
     return (
@@ -19,9 +19,9 @@ const ResumePage = () => {
                 <p>Glenwood Springs, CO | <a href="https://www.linkedin.com/in/ellimckinley/" target="_blank" rel="noopener noreferrer">linkedin.com/in/ellimckinley/</a></p>
             </section>
             
-            <Accordion defaultActiveKey="0">
-                <Accordion.Item eventKey="0">
-                    <Accordion.Header>Summary</Accordion.Header>
+            <Accordion defaultActiveKey={['0']}  className="bg-secondary-custom">
+                <Accordion.Item eventKey="0" alwaysOpen>
+                    <Accordion.Header >Summary</Accordion.Header>
                     <Accordion.Body>
                         <p>
                             With over 10 years of experience in e-commerce product operations and team leadership in the ski industry, I have proven ability to build high-performing teams, optimize processes, and enhance customer satisfaction. Skilled in analyzing metrics for strategic decision-making, developing documentation, dedicated to driving continuous improvement and operational excellence.
