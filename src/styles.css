@@ -10,7 +10,7 @@
 
 /* Main Text / Light Background */
 .text-main-custom {
-    color: #e2e8ce !important;
+    color: #ffffff !important;
 }
 .bg-light-custom {
     background-color: #e2e8ce !important;
@@ -23,6 +23,10 @@
 /* Pure White Background */
 .bg-white-custom {
     background-color: #ffffff !important;
+}
+
+.text-dark-custom {
+    color: #231f20 !important;
 }
 
 /* Accent / Button Color */
