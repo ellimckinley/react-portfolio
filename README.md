@@ -2,6 +2,7 @@
 This is my personal website designed to showcase my coding and developer skills. It features various projects and applications I have worked on, demonstrating my proficiency in JavaScript, React, and Bootstrap. Explore the site to see my work and learn more about my technical abilities.
 
 [Website](https://ellimckinley.netlify.app/portfolio)
+![Screenshot](https://ellimckinley.netlify.app/screenshot.png)
 
 ## Table of Contents
 - [Usage Information](#usage-information)
