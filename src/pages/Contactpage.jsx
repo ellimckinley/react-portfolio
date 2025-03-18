@@ -59,7 +59,7 @@ const ContactPage = () => {
                     });
                 }, (err) => {
                     console.log('FAILED...', err);
-                    setErrorMessage({ submit: 'Failed to send message. Please try again later.' });
+                    setErrorMessage({ submit: '🚧 Form under construction. Please contact me on LinkedIn.' });
                 });
         }
     };

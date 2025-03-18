@@ -1,7 +1,7 @@
 ## Portfolio
-Text
+This is my personal website designed to showcase my coding and developer skills. It features various projects and applications I have worked on, demonstrating my proficiency in JavaScript, React, and Bootstrap. Explore the site to see my work and learn more about my technical abilities.
 
-[Application Demo](https://drive.google.com/file/d/1ZANDuM63VysqaXSIKRTxrMJzU9VCT4Rs/view)
+[Website](https://ellimckinley.netlify.app/portfolio)
 
 ## Table of Contents
 - [Usage Information](#usage-information)
@@ -27,6 +27,6 @@ Not accepting contributions at this time.
 ## Contact
 For additional questions and instructions, please contact me at [elli.mckinley@gmail.com](mailto:elli.mckinley@gmail.com).
 
-Checkout my other GitHub projects: @ellimckinley.
-Checkout my other Netlify pages: Elli McKinley
+Checkout my other GitHub projects: [@ellimckinley](https://github.com/ellimckinley).
+
 

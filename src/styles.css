@@ -67,6 +67,16 @@
     color: #231f20 !important;
 }
 
+/* Accordion Header */
+.accordion-header {
+    background-color: #e2e8ce;
+    color: #231f20 !important;
+}
+  
+.accordion-header:hover {
+    background-color: #acbfa4 !important;
+}
+
 /* Footer Styles */
 footer {
     background-color: #231f20;
