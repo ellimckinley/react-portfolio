@@ -22,10 +22,34 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={NavLink} to="/" className="text-main-custom nav-link-custom" activeClassName="active" onClick={handleSelect}>Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/portfolio" className="text-main-custom nav-link-custom" activeClassName="active" onClick={handleSelect}>Portfolio</Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" className="text-main-custom nav-link-custom" activeClassName="active" onClick={handleSelect}>Contact</Nav.Link>
-            <Nav.Link as={NavLink} to="/resume" className="text-main-custom nav-link-custom" activeClassName="active" onClick={handleSelect}>Resume</Nav.Link>
+            <Nav.Link 
+              as={NavLink} 
+              to="/" 
+              className={({ isActive }) => isActive ? "text-main-custom nav-link-custom active" : "text-main-custom nav-link-custom"} 
+              onClick={handleSelect}
+            >
+              Home</Nav.Link>
+            <Nav.Link 
+              as={NavLink} 
+              to="/portfolio" 
+              className={({ isActive }) => isActive ? "text-main-custom nav-link-custom active" : "text-main-custom nav-link-custom"} 
+              onClick={handleSelect}
+            >
+              Portfolio</Nav.Link>
+            <Nav.Link 
+              as={NavLink} 
+              to="/contact" 
+              className={({ isActive }) => isActive ? "text-main-custom nav-link-custom active" : "text-main-custom nav-link-custom"} 
+              onClick={handleSelect}
+            >
+              Contact</Nav.Link>
+            <Nav.Link 
+              as={NavLink} 
+              to="/resume" 
+              className={({ isActive }) => isActive ? "text-main-custom nav-link-custom active" : "text-main-custom nav-link-custom"} 
+              onClick={handleSelect}
+            >
+              Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

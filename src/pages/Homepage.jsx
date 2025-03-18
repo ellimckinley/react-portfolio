@@ -16,31 +16,17 @@ const HomePage = () => {
           <br />
           <br />
           <p className="text-start">
-            I get things done. With a decade of experience in guest services, operations, commerce, 
-            and product, I know how to streamline processes, fix what’s broken, and turn good systems 
-            into great ones. I don’t just follow the rules—I challenge assumptions, ask the hard 
-            questions, and rethink the game from the ground up.
+          I like making things work better. With a decade of experience in guest services, operations, commerce, and product, I’ve learned how to streamline processes, solve problems, and turn good systems into great ones. I don’t just follow the usual playbook—I ask questions, challenge assumptions, and look for smarter ways to get things done.
           </p>
           <p className="text-start">
-            Strategy? Nailed it. Problem-solving? 
-            That’s just a warm-up. Technical documentation, test plans, data analysis, issue reporting, 
-            training, internal support? Check, check, and check.
-          </p>
-          <p className="text-start">
-            And because “good enough” isn’t in my 
-            vocabulary, I dove headfirst into a software bootcamp to supercharge my technical skills. 
-            Why? Because sharper skills mean bigger ideas, and bigger ideas mean game-changing solutions.
+          I’ve tackled everything from strategy and problem-solving to technical documentation, test plans, data analysis, issue reporting, training, and internal support. And because I’m always looking to grow, I jumped into a software bootcamp to sharpen my technical skills—because better skills lead to bigger ideas, and bigger ideas drive real change.
           </p>
           <p className="text-start">
             This portfolio was built during that journey—proof that learning, growing, and pushing 
             boundaries never stop. 🚀🔥
           </p>
           <p className="text-start">
-            When I’m not deep in code or refining processes, 
-            you’ll find me spending all my time with my favorite fluffer pup, Juniper, rafting the local 
-            rivers, camping with family and friends, and cooking in my cabin on the creek. My kitchen 
-            is my oasis, and cooking is my meditation—where flavors, creativity, and a little bit of 
-            chaos come together in the best way.
+          When I’m not coding or refining processes, you’ll find me hanging out with my favorite fluffer pup, Juniper, rafting local rivers, camping with family and friends, or cooking in my cabin on the creek. My kitchen is my happy place—where creativity, flavors, and a little bit of chaos come together in the best way.
           </p>
         </div>
       </section>

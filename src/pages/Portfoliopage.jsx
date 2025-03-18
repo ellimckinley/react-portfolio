@@ -25,51 +25,44 @@ const PortfolioPage = () => {
       <br />
       <h2 className="text-center">Deployed Projects</h2>
       <br></br>
-      <div className="row justify-content-center ">
-        <Card
+      <div className="row justify-content-center  ">
+        <Card 
           title="SwatchSaver"
-          description="Interactive color palette generator"
-          link="https://ellimckinley.github.io/SwatchSaver/"
+          description="Interactive color palette generator using HTML, JavaScript, and TailwindCSS"
+          githubLink="https://github.com/ellimckinley/SwatchSaver"
+          websiteLink="https://ellimckinley.github.io/SwatchSaver/"
         />
         <Card
           title="My First Portfolio"
           description="Initial portfolio created using HTML, CSS, and JavaScript"
-          link="https://ellimckinley.github.io/portfolio/"
+          githubLinklink="https://github.com/ellimckinley/portfolio"
+          websiteLink="https://ellimckinley.github.io/portfolio/"
         />
-                <Card
-          title="Project 3"
+        <Card
+          title="Employee Tracker"
+          description="Command line application using JavaScript, Node.js, PostgreSQL, Inquirer"
+          githubLinklink="https://github.com/ellimckinley/emplolyee-tracker"
+          websiteLink=""
+        />
+        <Card
+          title="Vehicle Builder"
           description="Initial portfolio created using HTML, CSS, and JavaScript"
-          link="https://ellimckinley.github.io/portfolio/"
+          githubLinklink="https://github.com/ellimckinley/vehicle-builder"
+          websiteLink=""
         />
-                <Card
-          title="Project 4"
-          description="Initial portfolio created using HTML, CSS, and JavaScript"
-          link="https://ellimckinley.github.io/portfolio/"
+        <Card
+          title="Weather Dashboard"
+          description="IN PROGRESS: 5-Day weather forecast using HTML, CSS, JavaScript, TypeScript, and API's"
+          githubLinklink="https://github.com/ellimckinley/weather-dashboard"
+          websiteLink="https://weather-dashboard-vm5a.onrender.com"
         />
-                <Card
-          title="Project 5"
-          description="Initial portfolio created using HTML, CSS, and JavaScript"
-          link="https://ellimckinley.github.io/portfolio/"
-        />
-                <Card
+        <Card
           title="Project 6"
-          description="Initial portfolio created using HTML, CSS, and JavaScript"
-          link="https://ellimckinley.github.io/portfolio/"
+          description="COMING SOON"
+          githubLinklink=""
+          websiteLink=""
         />
       </div>
-      {/* <h2 className="text-center">My GitHub Projects</h2>
-      <div className="row justify-content-center ">
-        <ul className="list-group w-50 ">
-          {repos.map(repo => (
-            <li key={repo.id} className="list-group-item bg-secondary-custom text-dark-custom">
-              <a href={repo.html_url} target="_blank" rel="noopener noreferrer"
-              style={{ textDecoration: 'none', color: 'inherit' }}>
-                {repo.name}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div> */}
     </div>
   );
 };
